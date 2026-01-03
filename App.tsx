@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from 'react';
 
 // Reemplaza esta URL con la de tu Realtime Database de Firebase cuando la tengas
 const FIREBASE_URL = "https://TU-PROYECTO.firebaseio.com/progresos";
@@ -148,3 +147,4 @@ const ExpressionBuilder = () => {
 };
 
 export default ExpressionBuilder;
+
