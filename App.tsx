@@ -145,6 +145,7 @@ const ExpressionBuilder = () => {
     </div>
   );
 };
-
+const root = ReactDOM.createRoot(document.getElementById('root')); root.render(<ExpressionBuilder />);
 export default ExpressionBuilder;
+
 
