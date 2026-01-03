@@ -145,7 +145,8 @@ const ExpressionBuilder = () => {
     </div>
   );
 };
-const root = ReactDOM.createRoot(document.getElementById('root')); root.render(<ExpressionBuilder />);
 export default ExpressionBuilder;
-
+// Añade esto al final de tu archivo App.tsx
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<ExpressionBuilder />);
 
